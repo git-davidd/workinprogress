@@ -16,6 +16,6 @@
 
 <br>
 
-![Hovering]("./assets/README/Hover-button.png")
+![Hovering](./assets/README/Hover-button.png)
 
 </div>
