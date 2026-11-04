@@ -1,6 +1,8 @@
 @import "tailwindcss";
 
 @theme {
+  --font-inter: "Inter", sans-serif;
+
   --color-choco: #161618;
   --color-grid: #5f656a;
   --color-oat-milk: #f4eede;
