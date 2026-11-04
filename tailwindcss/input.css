@@ -1,7 +1,8 @@
 @import "tailwindcss";
 
 @theme {
-  --color-autumn-soil: #352922;
+  --color-choco: #161618;
+  --color-grid: #5f656a;
   --color-oat-milk: #f4eede;
 }
 
@@ -9,11 +10,11 @@
   --sq-sz: 14vh;
   --offset: 40%;
 
-  background-color: #161618;
+  background-color: var(--color-choco);
   background-image:
-    linear-gradient(#5f656a49 1px, transparent 1px),
-    linear-gradient(90deg, #5f656a49 1px, transparent 1px),
-    radial-gradient(#5f656a9b 1.5px, transparent 1.5px);
+    linear-gradient(color-mix(in srgb, var(--color-grid) 25%, transparent) 1px, transparent 1px),
+    linear-gradient(90deg, color-mix(in srgb, var(--color-grid) 25%, transparent) 1px, transparent 1px),
+    radial-gradient(color-mix(in srgb, var(--color-grid) 60%, transparent) 1.5px, transparent 1.5px);
   background-size: var(--sq-sz) var(--sq-sz);
   background-position:
     var(--offset) var(--offset),
