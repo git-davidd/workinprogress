@@ -8,17 +8,18 @@
   </head>
   <body class="pg-bg h-screen grid place-items-center">
     <div
-      class="ml-auto mr-auto text-oat-milk p-8 border rounded-3xl flex gap-6 flex-col w-75 backdrop-blur-md"
+      class="ml-auto mr-auto text-oat-milk p-8 border rounded-3xl flex gap-6 sm:gap-11 flex-col sm:flex-row w-75 sm:w-140 backdrop-blur-md"
     >
-      <div>
+      <div class="sm:flex-1">
         <h2 class="font-semibold text-2xl mt-0 mb-2">Work in Progress!</h2>
-        <p class="font-light text-lg text-balance m-0">
+        <p class="font-light text-lg text-balance max-sm:mb-[-8px]">
           This site is still being developed. It should be here soon. Questions?
-          Check my contact information below.
+          Contact me using one of the given options.
         </p>
       </div>
-      <div class="bg-oat-milk h-px w-[85%] self-center"></div>
-      <div class="grid grid-cols-2 grid-rows-2 gap-2">
+      <div class="bg-oat-milk h-px w-[85%] self-center sm:hidden"></div>
+      <div class="bg-oat-milk w-px h-32 self-center m-auto max-sm:hidden"></div>
+      <div class="grid grid-cols-2 grid-rows-2 gap-2 sm:flex-none">
         <a
           href="./linkedin/"
           class="size-18 border place-self-end rounded-2xl p-3 grid place-items-center"
