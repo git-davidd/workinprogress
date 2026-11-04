@@ -1,1 +1,23 @@
 @import "tailwindcss";
+
+@theme {
+  --color-autumn-soil: #352922;
+  --color-oat-milk: #f4eede;
+}
+
+.pg-bg {
+  --sq-sz: 16vh;
+  --offset: 40%;
+
+  background-color: #161618;
+  background-image:
+    linear-gradient(#5f656a49 1px, transparent 1px),
+    linear-gradient(90deg, #5f656a49 1px, transparent 1px),
+    radial-gradient(#5f656a9b 1.5px, transparent 1.5px);
+  background-size: var(--sq-sz) var(--sq-sz);
+  background-position:
+    var(--offset) var(--offset),
+    var(--offset) var(--offset),
+    calc(var(--offset) - var(--sq-sz) / 2)
+    calc(var(--offset) - var(--sq-sz) / 2);
+}
