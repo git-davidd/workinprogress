@@ -84,12 +84,22 @@ _To open it in a new tab:_
 
 `Use this knowledge to change the other icons.`
 
-ㅤ3. **Test the configuration out with a live server. The icons will not load if you simply open `./index.html` in your browser unfortunately.<br>I personally used the live server VSCodium plugin, but I think you can also do it with python. Please research for yourself.**
+ㅤ3. **Test the configuration out with a live server. The icons will not load if you simply open `./index.html` in your browser unfortunately.<br>See "Running it locally" on how to start a live-server.**
 
 </details>
 
-<br><br><h2>- Licence ! - </h2>
+<br><h2>- Running it locally ! -</h2>
 
-This project is licensed under the GNU General Public Licence v3.0. See the [LICENSE](LICENSE) file for details.
+ㅤ1. **Clone the repo: `git clone https://github.com/git-davidd/workinprogress.git WIP!`**
+<br>
+ㅤ2. **Change directory into the project directory: `cd WIP!/`**
+<br>
+3. **Install python: [python.org/downloads/](https://www.python.org/downloads/)**
+<br>
+4. **Run the live server: `python -m http.server` or `python -m http.server [port]` to also select a port to run the server on.**
+
+<br><h2>- License ! - </h2>
+
+This project is licensed under the GNU General Public License v3.0. See the [LICENSE](LICENSE) file for details.
 
 </div>
