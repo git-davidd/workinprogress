@@ -97,6 +97,8 @@ _To open it in a new tab:_
 3. **Install python: [python.org/downloads/](https://www.python.org/downloads/)**
 <br>
 4. **Run the live server: `python -m http.server` or `python -m http.server [port]` to also select a port to run the server on.**
+<br>
+ㅤ5. **Open the website at http://localhost:8000, or http://localhost:[port] if you specified one.**
 
 <br><h2>- License ! - </h2>
 
