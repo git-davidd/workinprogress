@@ -3,9 +3,9 @@
 @theme {
   --font-inter: "Inter", sans-serif;
 
-  --color-choco: #161618;
-  --color-grid: #5f656a;
-  --color-oat-milk: #f4eede;
+  --color-choco: #161618;       /* This is the background colour */
+  --color-grid: #5f656a;        /* This is the colour of the lines on the background */
+  --color-oat-milk: #f4eede;    /* This is the white-ish colour */
 }
 
 .pg-bg {
